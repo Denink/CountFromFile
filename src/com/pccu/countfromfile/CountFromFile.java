@@ -11,7 +11,7 @@ public class CountFromFile {
 		 String mCustomer = "";
 		 try {
 		 scanner = new Scanner(new File("src/consume.txt"));
-		 while (scanner.hasNext()) {
+		          while (scanner.hasNext()) {
 		 // handle customer name
 		 mCustomer = scanner.next();
 		
